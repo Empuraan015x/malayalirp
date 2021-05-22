@@ -1,0 +1,156 @@
+body {
+    background: #fff;
+    font-family: 'Poppins', sans-serif !important;
+}
+#log1{
+    margin-left: 105px;
+}
+#log2{
+    margin-left: 18px;
+}
+.logo {
+    line-height: 80px;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: left;
+    float: left;
+    padding-top: 2px;
+}
+a {
+    text-decoration: none !important;
+    color: #ccc;
+}
+a:hover{
+    color:  #ffc107 !important;
+}
+img {
+    vertical-align: middle;
+}
+.bg{
+    background: #000;
+}
+.card-img-top{
+    height:175px;
+    width:175px;
+}
+.subsec1{
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+em{
+    color: #fba70b;
+    font-style: normal;
+}
+.headabt{
+    height:auto;
+    width:auto;
+    overflow-wrap: break-word;
+    text-align: start;
+    pointer-events: auto;
+}
+.font_8 {
+    font: var(--font_8);
+    color: rgb(var(--color_15));
+    pointer-events: auto;
+}
+#comp-kg223pb62 {
+    height: auto;
+    text-align: center;
+}
+._2k7xj {
+    position: absolute;
+    transition: var(--trans1,border-color .4s ease 0s,background-color .4s ease 0s);
+    box-shadow: var(--shd,0 1px 4px rgba(0,0,0,.6));
+    text-align: initial;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    width: max-content;
+    justify-content: var(--label-align);
+    min-width: 100%;
+}
+.ftext{
+    color: #aaa;
+    text-align: center;
+    font-size: 14px;
+}
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+  
+.modal-content {
+    background: #ffff;
+    margin: 20% auto;
+    width: 432px;
+    height: 550px;
+    vertical-align: middle;
+}
+.close {
+    color: rgb(105, 103, 103);
+    float: right;
+    font-size: 30px;
+    padding-top: 10px;
+    margin-left: 1450px;
+}
+  
+.close:hover,.close:focus {
+    color: #000;
+    text-decoration: none;
+
+}
+
+/*-- contact --*/
+.contact-form label {
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+}
+.contact-form .form-control {
+    padding: 0.8rem;
+    color: #495057;
+    border: 1px solid #ddd;
+    border-radius: 0rem;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+.contact-form textarea {
+    overflow: auto;
+    resize: vertical;
+    height: 3em;
+}
+.contact-form button.btn.btn-default {
+    background: #2a5298;
+    border: 2px solid #2a5298;
+    text-transform: capitalize;
+    color: #fff;
+    padding: 10px 25px;
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 8px;
+    margin-left: 12px;
+    width: auto;
+    margin-top: 10px;
+}
+
+.w3layouts-map iframe {
+    width: 100%;
+    min-height: 279px;
+    padding: 10px;
+    border: 4px solid #eee;
+}
+
+/*-- //contact --*/
