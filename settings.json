@@ -1,0 +1,269 @@
+{
+  "ok": true,
+  "data": {
+    "settingsVersion": "2-7-0",
+    "propertyName": "Malayali RP",
+    "branding": {
+      "whitelabeled": false,
+      "text": "We're ⚡ by *tawk.to*",
+      "url": "https://www.tawk.to/?utm_source=visitor-widget&utm_medium=link&utm_campaign=referral&utm_term=60a9f89ba4114e480ad06252"
+    },
+    "widget": {
+      "type": "inline",
+      "version": 6,
+      "language": "en",
+      "minimized": {
+        "desktop": {
+          "type": "rectangle",
+          "height": 40,
+          "width": 126,
+          "borderRadiusTop": 10,
+          "borderRadiusBottom": 10
+        },
+        "mobile": {
+          "type": "round"
+        }
+      },
+      "maximized": {
+        "desktop": {
+          "height": 520,
+          "width": 350
+        }
+      },
+      "bubble": {
+        "type": "image",
+        "config": {
+          "image": {
+            "type": "gallery",
+            "content": "163"
+          },
+          "height": 132,
+          "width": 200,
+          "zIndex": 1,
+          "rotate": 0,
+          "offsetX": 0,
+          "offsetY": 35
+        }
+      },
+      "theme": {
+        "header": {
+          "text": "#ffffff",
+          "background": "#333333"
+        },
+        "agent": {
+          "messageText": "#ffffff",
+          "messageBackground": "#333333"
+        },
+        "visitor": {
+          "messageText": "#333333",
+          "messageBackground": "#e5e5e5"
+        }
+      },
+      "notification": {
+        "all": {
+          "estimatedWaitTime": false,
+          "sound": true,
+          "agentTyping": true,
+          "visitorTyping": true,
+          "tab": true
+        },
+        "desktop": {
+          "preview": true
+        },
+        "mobile": {
+          "preview": true
+        }
+      },
+      "behavior": {
+        "click": "max"
+      },
+      "visibility": {
+        "all": {
+          "showWhenOffline": false
+        },
+        "desktop": {
+          "position": "br",
+          "show": true
+        },
+        "mobile": {
+          "position": "br",
+          "show": true
+        }
+      },
+      "features": {
+        "emoji": true,
+        "uploads": true,
+        "rating": true,
+        "transcript": false
+      },
+      "components": {
+        "liveChat": true,
+        "kb": true,
+        "webrtc": true
+      },
+      "scheduler": {
+        "enabled": true,
+        "config": {
+          "timezone": "Asia/Kolkata",
+          "schedule": [
+            {
+              "day": 0,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 1,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 2,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 3,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 4,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 5,
+              "start": 0,
+              "end": 1440
+            },
+            {
+              "day": 6,
+              "start": 0,
+              "end": 1440
+            }
+          ]
+        }
+      },
+      "states": {
+        "online": {
+          "header": [
+            {
+              "id": "heading:_lY-HIboYu",
+              "type": "heading",
+              "content": {
+                "value": "Hi there 👋",
+                "alignment": "left"
+              }
+            },
+            {
+              "id": "text:7v4AgNObTf",
+              "type": "text",
+              "content": {
+                "value": "Need help? Search our help center for answers or start a conversation:",
+                "alignment": "left"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "kbs:0eTQgV6N5A",
+              "type": "kb-search",
+              "content": {
+                "siteId": "primary",
+                "linkTarget": "self",
+                "inputPlaceholder": "Search for answers"
+              }
+            },
+            {
+              "id": "chat:qz_sAElnUm",
+              "type": "chat",
+              "content": {
+                "buttonText": "New Conversation",
+                "inputPlaceholder": "Type here and press enter.."
+              }
+            },
+            {
+              "id": "pc:OR1OoZd5se",
+              "type": "previous-conversations",
+              "content": {}
+            }
+          ],
+          "minimizedText": "Online"
+        },
+        "away": {
+          "header": [
+            {
+              "id": "heading:PBGrPaVw9v",
+              "type": "heading",
+              "content": {
+                "value": "Hi there 👋",
+                "alignment": "left"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "kbs:0Lh9XK3EkL",
+              "type": "kb-search",
+              "content": {
+                "siteId": "primary",
+                "linkTarget": "self",
+                "inputPlaceholder": "Search for answers"
+              }
+            },
+            {
+              "id": "chat:LX70eI-sGH",
+              "type": "chat",
+              "content": {
+                "buttonText": "New Conversation",
+                "inputPlaceholder": "Type here and press enter.."
+              }
+            }
+          ],
+          "minimizedText": "Away"
+        },
+        "offline": {
+          "header": [
+            {
+              "id": "text:5I_zU9p9WU",
+              "type": "text",
+              "content": {
+                "value": "Please fill out the form below and we will get back to you as soon as possible.",
+                "alignment": "center"
+              }
+            }
+          ],
+          "body": [
+            {
+              "id": "form:PkQBS7zA8Q",
+              "type": "form",
+              "content": {
+                "fields": [
+                  {
+                    "label": "Name",
+                    "required": true,
+                    "type": "text",
+                    "context": "name"
+                  },
+                  {
+                    "label": "Email",
+                    "required": true,
+                    "type": "text",
+                    "context": "email",
+                    "format": "email"
+                  },
+                  {
+                    "label": "Message",
+                    "required": true,
+                    "type": "textarea"
+                  }
+                ]
+              }
+            }
+          ],
+          "minimizedText": "Send message"
+        }
+      }
+    }
+  }
+}
